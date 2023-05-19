@@ -13,6 +13,10 @@ namespace Ejemplo1_Clases
     public partial class Form1 : Form
     {
         public List<Centro> listaCentros = new List<Centro>();
+        public List<Profesor> listaProfesores = new List<Profesor>();
+        public List<Alumno> listaAlumnos = new List<Alumno>();
+        public List<Personal> listaPersonales = new List<Personal>();
+
         public Form1()
         {
             InitializeComponent();

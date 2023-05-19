@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ejemplo1_Clases
 {
-    class Persona
+    public class Persona
     {
         //campos
         string id;

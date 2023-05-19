@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Ejemplo1_Clases
 {
     //Realizamos la Herencia
-    class Alumno:Persona
+    public class Alumno:Persona
     {
         //campos
         string exp;

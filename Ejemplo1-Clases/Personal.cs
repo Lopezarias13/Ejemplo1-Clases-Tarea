@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Ejemplo1_Clases
 {
     //Hereda de persona
-    class Personal:Persona
+    public class Personal:Persona
     {
         //CAmpos
         string unidad;
