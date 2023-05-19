@@ -62,11 +62,23 @@
     <Compile Include="FrmCentro.Designer.cs">
       <DependentUpon>FrmCentro.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmProfesor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProfesor.Designer.cs">
+      <DependentUpon>FrmProfesor.cs</DependentUpon>
+    </Compile>
     <Compile Include="ListaCentros.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ListaCentros.Designer.cs">
       <DependentUpon>ListaCentros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListaProfesores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListaProfesores.Designer.cs">
+      <DependentUpon>ListaProfesores.cs</DependentUpon>
     </Compile>
     <Compile Include="Persona.cs" />
     <Compile Include="Personal.cs" />
@@ -79,8 +91,14 @@
     <EmbeddedResource Include="FrmCentro.resx">
       <DependentUpon>FrmCentro.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmProfesor.resx">
+      <DependentUpon>FrmProfesor.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ListaCentros.resx">
       <DependentUpon>ListaCentros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListaProfesores.resx">
+      <DependentUpon>ListaProfesores.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

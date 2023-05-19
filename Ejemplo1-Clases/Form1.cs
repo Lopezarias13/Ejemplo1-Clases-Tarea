@@ -34,11 +34,8 @@ namespace Ejemplo1_Clases
 
         private void agregarToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
-            FrmCentro form = new FrmCentro();
-            this.Hide();
-            form.ShowDialog();
-            this.Show();
-            listaCentros.AddRange(form.ListaCentros);
+            AgregarCentro();
+            
         }
 
         private void listaDeCentrosToolStripMenuItem_Click(object sender, EventArgs e)
@@ -47,6 +44,15 @@ namespace Ejemplo1_Clases
             this.Hide();
             listaCentros.Show(this);
             this.Show();
+            
+        }
+        private void AgregarCentro()
+        {
+            FrmCentro form = new FrmCentro();
+            this.Hide();
+            form.ShowDialog();
+            this.Show();
+            listaCentros.AddRange(form.ListaCentros);
         }
     }
 }

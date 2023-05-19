@@ -10,23 +10,17 @@ using System.Windows.Forms;
 
 namespace Ejemplo1_Clases
 {
-    public partial class ListaCentros : Form
+    public partial class ListaProfesores : Form
     {
-        public ListaCentros()
+        public ListaProfesores()
         {
             InitializeComponent();
         }
 
-        private void ListaCentros_Load(object sender, EventArgs e)
+        private void ListaProfesores_Load(object sender, EventArgs e)
         {
-            List<Centro> listaCentros = ((Form1)Owner).listaCentros;
-
-            dataGridView1.DataSource = listaCentros;
-        }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
+            List<Profesor> listaprofesors = new List<Profesor>();
+            dataGridView1.DataSource = listaprofesors;
         }
 
         private void button1_Click(object sender, EventArgs e)
