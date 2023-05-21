@@ -13,7 +13,7 @@ namespace Ejemplo1_Clases
     public partial class Form1 : Form
     {
         public List<Centro> listaCentros = new List<Centro>();
-        public List<Profesor> listaProfesores = new List<Profesor>();
+        //public List<Profesor> listaProfesores = new List<Profesor>();
         public List<Alumno> listaAlumnos = new List<Alumno>();
         public List<Personal> listaPersonales = new List<Personal>();
 
@@ -35,7 +35,6 @@ namespace Ejemplo1_Clases
         private void agregarToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
             AgregarCentro();
-            
         }
 
         private void listaDeCentrosToolStripMenuItem_Click(object sender, EventArgs e)
@@ -44,7 +43,6 @@ namespace Ejemplo1_Clases
             this.Hide();
             listaCentros.Show(this);
             this.Show();
-            
         }
         private void AgregarCentro()
         {
@@ -52,7 +50,31 @@ namespace Ejemplo1_Clases
             this.Hide();
             form.ShowDialog();
             this.Show();
+            //Datos.Centros.AddRange(form.ListaCentros);
             listaCentros.AddRange(form.ListaCentros);
+        }
+        
+        private void profesorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void listaDeProfesoresToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ListaProfesores listProfesores = new ListaProfesores();
+            this.Hide();
+            listProfesores.Show(this);
+            this.Show();
+
+        }
+
+        private void agregarToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            FrmProfesor profesor = new FrmProfesor();
+            this.Hide();
+            profesor.ShowDialog();
+            this.Show();
+            
         }
     }
 }

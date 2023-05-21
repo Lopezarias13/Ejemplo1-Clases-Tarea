@@ -13,7 +13,7 @@ namespace Ejemplo1_Clases
 
     public partial class FrmProfesor : Form
     {
-        public List<Profesor> listaProfesores = new List<Profesor>();
+        //public List<Profesor> listaProfesores = new List<Profesor>();
         public FrmProfesor()
         {
             InitializeComponent();
@@ -35,7 +35,7 @@ namespace Ejemplo1_Clases
             profesor.INSS = textBoxINSS.Text;
             profesor.Salario = double.Parse(textBoxSalario.Text);
 
-            listaProfesores.Add(profesor);
+            Datos.Profesores.Add(profesor);
         }
         private void LimpiarCampos()
         {

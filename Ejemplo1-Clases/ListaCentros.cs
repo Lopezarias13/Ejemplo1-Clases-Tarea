@@ -21,6 +21,7 @@ namespace Ejemplo1_Clases
         {
             List<Centro> listaCentros = ((Form1)Owner).listaCentros;
 
+
             dataGridView1.DataSource = listaCentros;
         }
 

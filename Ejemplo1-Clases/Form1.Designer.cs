@@ -69,14 +69,14 @@
             // agregarToolStripMenuItem
             // 
             this.agregarToolStripMenuItem.Name = "agregarToolStripMenuItem";
-            this.agregarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.agregarToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
             this.agregarToolStripMenuItem.Text = "Agregar";
             this.agregarToolStripMenuItem.Click += new System.EventHandler(this.agregarToolStripMenuItem_Click_1);
             // 
             // listaDeCentrosToolStripMenuItem
             // 
             this.listaDeCentrosToolStripMenuItem.Name = "listaDeCentrosToolStripMenuItem";
-            this.listaDeCentrosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.listaDeCentrosToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
             this.listaDeCentrosToolStripMenuItem.Text = "Lista de Centros";
             this.listaDeCentrosToolStripMenuItem.Click += new System.EventHandler(this.listaDeCentrosToolStripMenuItem_Click);
             // 
@@ -88,18 +88,21 @@
             this.profesorToolStripMenuItem.Name = "profesorToolStripMenuItem";
             this.profesorToolStripMenuItem.Size = new System.Drawing.Size(63, 20);
             this.profesorToolStripMenuItem.Text = "Profesor";
+            this.profesorToolStripMenuItem.Click += new System.EventHandler(this.profesorToolStripMenuItem_Click);
             // 
             // agregarToolStripMenuItem1
             // 
             this.agregarToolStripMenuItem1.Name = "agregarToolStripMenuItem1";
-            this.agregarToolStripMenuItem1.Size = new System.Drawing.Size(172, 22);
+            this.agregarToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.agregarToolStripMenuItem1.Text = "Agregar";
+            this.agregarToolStripMenuItem1.Click += new System.EventHandler(this.agregarToolStripMenuItem1_Click);
             // 
             // listaDeProfesoresToolStripMenuItem
             // 
             this.listaDeProfesoresToolStripMenuItem.Name = "listaDeProfesoresToolStripMenuItem";
-            this.listaDeProfesoresToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
+            this.listaDeProfesoresToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.listaDeProfesoresToolStripMenuItem.Text = "Lista de Profesores";
+            this.listaDeProfesoresToolStripMenuItem.Click += new System.EventHandler(this.listaDeProfesoresToolStripMenuItem_Click);
             // 
             // estudianteToolStripMenuItem
             // 

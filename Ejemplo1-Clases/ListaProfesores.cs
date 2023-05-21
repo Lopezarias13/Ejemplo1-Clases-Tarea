@@ -19,8 +19,8 @@ namespace Ejemplo1_Clases
 
         private void ListaProfesores_Load(object sender, EventArgs e)
         {
-            List<Profesor> listaprofesors = new List<Profesor>();
-            dataGridView1.DataSource = listaprofesors;
+           // List<Profesor> listaprofesors = new List<Profesor>();
+            dataGridView1.DataSource = Datos.Profesores;
         }
 
         private void button1_Click(object sender, EventArgs e)
