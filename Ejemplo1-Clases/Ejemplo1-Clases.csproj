@@ -68,17 +68,35 @@
     <Compile Include="FrmCentro.Designer.cs">
       <DependentUpon>FrmCentro.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmPersonal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPersonal.Designer.cs">
+      <DependentUpon>FrmPersonal.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmProfesor.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmProfesor.Designer.cs">
       <DependentUpon>FrmProfesor.cs</DependentUpon>
     </Compile>
+    <Compile Include="ListaAlumno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListaAlumno.Designer.cs">
+      <DependentUpon>ListaAlumno.cs</DependentUpon>
+    </Compile>
     <Compile Include="ListaCentros.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ListaCentros.Designer.cs">
       <DependentUpon>ListaCentros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListaPersonal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListaPersonal.Designer.cs">
+      <DependentUpon>ListaPersonal.cs</DependentUpon>
     </Compile>
     <Compile Include="ListaProfesores.cs">
       <SubType>Form</SubType>
@@ -100,11 +118,20 @@
     <EmbeddedResource Include="FrmCentro.resx">
       <DependentUpon>FrmCentro.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmPersonal.resx">
+      <DependentUpon>FrmPersonal.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmProfesor.resx">
       <DependentUpon>FrmProfesor.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ListaAlumno.resx">
+      <DependentUpon>ListaAlumno.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ListaCentros.resx">
       <DependentUpon>ListaCentros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListaPersonal.resx">
+      <DependentUpon>ListaPersonal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ListaProfesores.resx">
       <DependentUpon>ListaProfesores.cs</DependentUpon>

@@ -76,5 +76,37 @@ namespace Ejemplo1_Clases
             this.Show();
             
         }
+
+        private void agregarToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            FrmAlumno alumno = new FrmAlumno();
+            this.Hide();
+            alumno.ShowDialog();
+            this.Show();
+        }
+
+        private void listaDeEstudiantesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ListaAlumno listaAlumno = new ListaAlumno();
+            this.Hide();
+            listaAlumno.ShowDialog();
+            this.Show();
+        }
+
+        private void agregarToolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+            FrmPersonal personal = new FrmPersonal();
+            this.Hide();
+            personal.ShowDialog();
+            this.Show();
+        }
+
+        private void listaDeTrabajadoresToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ListaPersonal listaPersonal = new ListaPersonal();
+            this.Hide();
+            listaPersonal.ShowDialog();
+            this.Show();
+        }
     }
 }
